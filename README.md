@@ -110,7 +110,7 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 | <kbd>⇪</kbd> Press |  <kbd>⎋</kbd> Escape  | Click Capslock to emit Escape                      |
 | <kbd>⇪</kbd> Hold  |  <kbd>✱</kbd>  Hyper  | Hold Capslock to enable **Hyper** modifier.        |
 |   <kbd>✱</kbd><kbd>⎋</kbd>    | <kbd>⇪</kbd> Capslock | Press to switch Capslock status |
-|   <kbd>✱</kbd><kbd>␣</kbd>    |     <kbd>⌃</kbd><kbd>␣</kbd>     | Switch input source, +<kbd>⌘</kbd> to emoji                   |
+|   <kbd>✱</kbd><kbd>␣</kbd>    |     <kbd>⌃</kbd><kbd>␣</kbd>     | Switch input source, +<kbd>⌘</kbd> to emoji.<br />[AB]  Captured by Contexts app so doesnt work |
 
 > Note that <kbd>✱</kbd> is implemented as combination of **ALL RIGHT MODIFIERS**:  <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>⇧</kbd>.
 >
@@ -201,7 +201,7 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
-|    <kbd>E</kbd>    |       Safari       |  Finder   |    Mail     |
+|    <kbd>E</kbd>    |       Chrome       |  Finder   |    Mail     |
 |    <kbd>R</kbd>    |       iTerm2       |  Preview  |  Terminal   |
 |    <kbd>T</kbd>    | Visual Studio Code |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Siri        | Karabiner | Amphetamine |

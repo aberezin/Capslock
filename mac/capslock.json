@@ -3,14 +3,10 @@
   "url": "https://vonng.com/capslock.json",
   "version": "3.0.3",
   "maintainers": [
-    "Vonng"
+    "Berezin"
   ],
-  "author": "Vonng(rh@vonng.com)",
-  "website": "http://capslock.vonng.com",
-  "json_url": "https://vonng.com/capslock.json",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://vonng.com/capslock.json",
-  "gallery_url": "https://ke-complex-modifications.pqrs.org/#emulation-modes",
-  "repo": "https://github.com/Vonng/Capslock",
+  "author": "Aberezin from Vonng(rh@vonng.com)",
+  "repo": "https://github.com/aberezin/Capslock",
   "rules": [
     {
       "description": "CapsLock to Hyper",
@@ -4819,7 +4815,7 @@
           ]
         },
         {
-          "description": "e = safari",
+          "description": "e = Chrome",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4834,7 +4830,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari"
+              "shell_command": "open -a \"Google Chrome\""
             }
           ]
         },
