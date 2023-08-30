@@ -181,8 +181,8 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 ### Window Control
 
 
-* `Tab`, <kbd>Q</kbd>, <kbd>W</kbd>, <kbd>A</kbd>, <kbd>s</kbd> used as window control keys. Focuing on close/switch applications / windows / tabs / desktops. (azure area)
-* Windows management (resize, layout) leaves to external application such as [Moom](https://manytricks.com/moom/), [Magnet](https://apps.apple.com/us/app/magnet/id441258766), and [Slate](https://github.com/jigish/slate). Bind <kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>⌘</kbd>A manually.
+* `Tab`, <kbd>Q</kbd>, <kbd>W</kbd>, <kbd>A</kbd>, <kbd>s</kbd> used as window control keys. Focusing on close/switch applications / windows / tabs / desktops. (azure area)
+* Windows management (resize, layout) leaves to external applications such as [Moom](https://manytricks.com/moom/), [Magnet](https://apps.apple.com/us/app/magnet/id441258766), and [Slate](https://github.com/jigish/slate). Bind <kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>⌘</kbd>A manually.
 
 
 | Key\Mod |      <kbd>✱</kbd>      |       <kbd>⌘</kbd>       |       <kbd>⌥</kbd>        |       <kbd>⌃</kbd>       |     <kbd>⇧</kbd>      |
@@ -197,21 +197,21 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 ### App Shortcuts
 
 * <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> <kbd>Y</kbd> <kbd>F</kbd> <kbd>G</kbd> are used as application shortcuts. (yellow area)
-* Popular apps and dev tools are registed to 3 default planes: <kbd>✱</kbd>/<kbd>⌘</kbd>/<kbd>⌥</kbd>. Assign these shortcuts according to your own needs.
+* Popular apps and dev tools are registered to 3 default planes: <kbd>✱</kbd>/<kbd>⌘</kbd>/<kbd>⌥</kbd>. Assign these shortcuts according to your own needs.
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
-|    <kbd>E</kbd>    |       Chrome       |  Finder   |    Mail     |
-|    <kbd>R</kbd>    |       iTerm2       |  Preview  |  Terminal   |
-|    <kbd>T</kbd>    | Visual Studio Code |  Typora   |    Note     |
-|    <kbd>Y</kbd>    |        Siri        | Karabiner | Amphetamine |
-|    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
-|    <kbd>G</kbd>    |   Intellij IDEA    |  Chrome   |  Calender   |
+|    <kbd>E</kbd>    |       Chrome Alan       |  Finder   |    Acorn    |
+|    <kbd>R</kbd>    |       Chrome FTI       |    | Preview |
+|    <kbd>T</kbd>    | Chrome CPKC | NA(for now) |  Typora |
+|    <kbd>Y</kbd>    |        iTerm        | NA(for now) | Fantastical |
+|    <kbd>F</kbd>    |      Outlook      |   NA(for now)   | Teams |
+|    <kbd>G</kbd>    |   PPT   |  NA(for now)  | MSWord |
 
 
 ### Terminal Control
 
-<kbd>D</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd>, <kbd>B</kbd> are used as terminal control keys. Sending singals and IDE commands. (green area)
+<kbd>D</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd>, <kbd>B</kbd> are used as terminal control keys. Sending signals and IDE commands. (green area)
 
 | Key\Mod |                         <kbd>✱</kbd>                          |          <kbd>⌘</kbd>           |
 | :-----: | :------------------------------------------------: | :------------------: |

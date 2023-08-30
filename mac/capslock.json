@@ -4794,7 +4794,7 @@
           ]
         },
         {
-          "description": "option + e = mail",
+          "description": "option + e = Acorn",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4810,12 +4810,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a mail"
+              "shell_command": "open -a Acorn"
             }
           ]
         },
         {
-          "description": "e = Chrome",
+          "description": "e = Chrome Alan",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4830,7 +4830,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a \"Google Chrome\""
+              "shell_command": "osascript /Users/aberezin/dotfiles/chrome-alan-personal1.scpt > /dev/null"
             }
           ]
         },
@@ -4856,7 +4856,7 @@
           ]
         },
         {
-          "description": "option + r = terminal",
+          "description": "option + r = Preview",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4872,12 +4872,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a terminal"
+              "shell_command": "open -a Preview"
             }
           ]
         },
         {
-          "description": "r = iTerm2",
+          "description": "r = Chrome FTI",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4892,10 +4892,10 @@
           },
           "to": [
             {
-              "shell_command": "open -a iTerm"
+              "shell_command": "osascript /Users/aberezin/dotfiles/chrome-alan-fti.scpt > /dev/null"
             }
           ]
-        },
+         },
         {
           "description": "command + t = typora",
           "type": "basic",
@@ -4918,7 +4918,7 @@
           ]
         },
         {
-          "description": "option + t = notes",
+          "description": "option + t = Typora",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4934,12 +4934,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a notes"
+              "shell_command": "open -a Typpra"
             }
           ]
         },
         {
-          "description": "t = vscode",
+          "description": "t = Chrome CP",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4954,7 +4954,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Visual Studio Code'"
+              "shell_command": "osascript /Users/aberezin/dotfiles/chrome-cpkc-fti.scpt > /dev/null"
             }
           ]
         },
@@ -4980,7 +4980,7 @@
           ]
         },
         {
-          "description": "option + y = amphetamine",
+          "description": "option + y = Fantastical 2",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -4996,12 +4996,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a amphetamine"
+              "shell_command": "open -a 'Fantastical 2'"
             }
           ]
         },
         {
-          "description": "y = Siri",
+          "description": "y = iTerm2",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -5016,7 +5016,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Siri"
+              "shell_command": "open -a iTerm"
             }
           ]
         },
@@ -5042,7 +5042,7 @@
           ]
         },
         {
-          "description": "option + f = Dictionary",
+          "description": "option + f = MS Teams",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5058,12 +5058,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Dictionary"
+              "shell_command": "open -a 'Microsoft Teams'"
             }
           ]
         },
         {
-          "description": "f = Alfred 4",
+          "description": "f = Outlook",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5078,7 +5078,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Alfred 4'"
+              "shell_command": "open -a 'Microsoft Outlook'"
             }
           ]
         },
@@ -5104,7 +5104,7 @@
           ]
         },
         {
-          "description": "option + g = Calender",
+          "description": "option + g = Microsoft Word",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -5120,12 +5120,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Calendar"
+              "shell_command": "open -a 'Microsoft Word'"
             }
           ]
         },
         {
-          "description": "g = Intellij IDEA",
+          "description": "g = Microsoft PPT",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -5140,7 +5140,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'IntelliJ IDEA'"
+              "shell_command": "open -a 'Microsoft PowerPoint'"
             }
           ]
         }
