@@ -4835,7 +4835,7 @@
           ]
         },
         {
-          "description": "command + r = preview",
+          "description": "command + r = Fantastical 2",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4851,7 +4851,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Preview"
+              "shell_command": "open -a 'Fantastical 2'"
             }
           ]
         },
@@ -4897,7 +4897,7 @@
           ]
          },
         {
-          "description": "command + t = typora",
+          "description": "command + t = Microsoft Excel",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4913,7 +4913,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Typora"
+              "shell_command": "open -a 'Microsoft Excel'"
             }
           ]
         },
@@ -4934,7 +4934,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Typpra"
+              "shell_command": "open -a Typora"
             }
           ]
         },
@@ -4980,7 +4980,7 @@
           ]
         },
         {
-          "description": "option + y = Fantastical 2",
+          "description": "option + y = PPT",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -4996,7 +4996,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Fantastical 2'"
+              "shell_command": "open -a 'Microsoft PowerPoint'"
             }
           ]
         },
@@ -5063,7 +5063,7 @@
           ]
         },
         {
-          "description": "f = Outlook",
+          "description": "f = Outlook email",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5079,9 +5079,17 @@
           "to": [
             {
               "shell_command": "open -a 'Microsoft Outlook'"
+            },
+            {
+                "key_code": "1",
+                "modifiers": [
+                    "right_command"
+                ]
             }
           ]
         },
+        
+
         {
           "description": "command + g = Chrome",
           "type": "basic",
@@ -5125,7 +5133,7 @@
           ]
         },
         {
-          "description": "g = Microsoft PPT",
+          "description": "g = Microsoft Outlook calendar",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -5140,8 +5148,15 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Microsoft PowerPoint'"
+              "shell_command": "open -a 'Microsoft Outlook'"
+            },
+            {
+                "key_code": "2",
+                "modifiers": [
+                    "right_command"
+                ]
             }
+
           ]
         }
       ]
@@ -6925,6 +6940,155 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Hyper Other",
+      "manipulators": [
+        {
+          "description": "z = Outlook set red",
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "p",
+                "modifiers": [
+                    "left_shift",
+                    "left_command"
+                ]
+            },
+            {
+                "key_code": "b"
+            },
+            {
+                "key_code": "i"
+            },
+            {
+                "key_code": "l"
+            },
+            {
+                "key_code": "l"
+            },
+            {
+                "key_code": "a"
+            },
+            {
+                "key_code": "b"
+            },
+            {
+                "key_code": "l"
+            },
+
+            {
+                "key_code": "return_or_enter"
+            }
+          ] ,
+          "conditions": [
+            {
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com\\.microsoft\\.Outlook$"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "description": "keys to scroll",
+        "manipulators": [
+        {
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": -64
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": 64
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "horizontal_wheel": 64
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "horizontal_wheel": -64
+              }
+            }
+          ],
+          "type": "basic"
+        }
+        ]
     }
   ]
 }

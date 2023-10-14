@@ -12,6 +12,12 @@
 
 *Transform <kbd>⇪</kbd>CapsLock into a powerful **modifier** **<kbd>✱</kbd> Hyper** that miraculously increases your work productivity!*
 
+
+
+![Keyboard](alan-keyboard.png)
+
+
+
 ![control-plane-0](docs/img/keyboard.jpg)
 
 > [Control Plane](#control-planes) 0 Layout (There are 15 more!)
@@ -202,11 +208,11 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
 |    <kbd>E</kbd>    |       Chrome Alan       |  Finder   |    Acorn    |
-|    <kbd>R</kbd>    |       Chrome FTI       |    | Preview |
-|    <kbd>T</kbd>    | Chrome CPKC | NA(for now) |  Typora |
-|    <kbd>Y</kbd>    |        iTerm        | NA(for now) | Fantastical |
-|    <kbd>F</kbd>    |      Outlook      |   NA(for now)   | Teams |
-|    <kbd>G</kbd>    |   PPT   |  NA(for now)  | MSWord |
+|    <kbd>R</kbd>    |       Chrome FTI       | Fantastical | Preview |
+|    <kbd>T</kbd>    | Chrome CPKC | MSExcel |  Typora |
+|    <kbd>Y</kbd>    |        iTerm        | NA(for now) | PPT |
+|    <kbd>F</kbd>    |      MSOutlook email      |   NA(for now)   | Teams |
+|    <kbd>G</kbd>    |   MSOutlook cal   |  NA(for now)  | MSWord |
 
 
 ### Terminal Control
