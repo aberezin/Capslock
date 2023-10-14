@@ -4895,7 +4895,7 @@
               "shell_command": "osascript /Users/aberezin/dotfiles/chrome-alan-fti.scpt > /dev/null"
             }
           ]
-         },
+        },
         {
           "description": "command + t = Microsoft Excel",
           "type": "basic",
@@ -5081,15 +5081,13 @@
               "shell_command": "open -a 'Microsoft Outlook'"
             },
             {
-                "key_code": "1",
-                "modifiers": [
-                    "right_command"
-                ]
+              "key_code": "1",
+              "modifiers": [
+                "right_command"
+              ]
             }
           ]
         },
-        
-
         {
           "description": "command + g = Chrome",
           "type": "basic",
@@ -5151,12 +5149,11 @@
               "shell_command": "open -a 'Microsoft Outlook'"
             },
             {
-                "key_code": "2",
-                "modifiers": [
-                    "right_command"
-                ]
+              "key_code": "2",
+              "modifiers": [
+                "right_command"
+              ]
             }
-
           ]
         }
       ]
@@ -6960,50 +6957,51 @@
           },
           "to": [
             {
-                "key_code": "p",
-                "modifiers": [
-                    "left_shift",
-                    "left_command"
-                ]
+              "key_code": "p",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
             },
             {
-                "key_code": "b"
+              "key_code": "b"
             },
             {
-                "key_code": "i"
+              "key_code": "i"
             },
             {
-                "key_code": "l"
+              "key_code": "l"
             },
             {
-                "key_code": "l"
+              "key_code": "l"
             },
             {
-                "key_code": "a"
+              "key_code": "a"
             },
             {
-                "key_code": "b"
+              "key_code": "b"
             },
             {
-                "key_code": "l"
+              "key_code": "l"
             },
-
             {
-                "key_code": "return_or_enter"
+              "key_code": "return_or_enter"
             }
-          ] ,
+          ],
           "conditions": [
             {
-            "type": "frontmost_application_if",
-            "bundle_identifiers": ["^com\\.microsoft\\.Outlook$"]
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.Outlook$"
+              ]
             }
           ]
         }
       ]
     },
     {
-        "description": "keys to scroll",
-        "manipulators": [
+      "description": "keys to scroll",
+      "manipulators": [
         {
           "from": {
             "key_code": "w",
@@ -7088,7 +7086,7 @@
           ],
           "type": "basic"
         }
-        ]
+      ]
     }
   ]
 }
