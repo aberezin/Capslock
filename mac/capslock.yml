@@ -5,6 +5,8 @@ maintainers:
   - Berezin
 author: Aberezin from Vonng(rh@vonng.com)
 repo: https://github.com/aberezin/Capslock
+# See similar TODO to combine several yml into one by concatinating the above section to several sets of rules
+# Consider also re-ordering rules to put in order I like them in karabiner:
 rules:
   - description: CapsLock to Hyper
     manipulators:
@@ -4297,6 +4299,8 @@ rules:
             bundle_identifiers:
               - ^com\.microsoft\.Outlook$
   - description: keys to scroll
+    # Keys to Scroll is a non-hyper Fn+(w|s|a|d) to scroll up|down|left|right 64px
+    # TODO improve build to assemble several yml into one.
     manipulators:
       - from:
           key_code: w
@@ -4336,9 +4340,33 @@ rules:
           modifiers:
             mandatory:
               - fn
+                #TODO why any optional
             optional:
               - any
         to:
           - mouse_key:
               horizontal_wheel: -64
         type: basic
+  - description: Excel Fn+m to max window in new workspace
+    manipulators:
+      - from:
+          key_code: m
+          modifiers:
+            mandatory:
+              - fn
+        to:
+          - key_code: z
+            modifiers:
+              - left_shift
+              - left_control
+              - left_option
+              - left_command
+        type: basic
+        conditions:
+          - type: frontmost_application_if
+            bundle_identifiers:
+              - ^com\.microsoft\.Outlook$
+              - ^com\.microsoft\.Word$
+              - ^com\.microsoft\.Powerpoint$
+              - ^com\.microsoft\.Excel$
+ 

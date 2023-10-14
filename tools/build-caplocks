@@ -1,5 +1,10 @@
 #!/usr/bin/env sh  #much faster start
+set -e
 
 target=$HOME/.config/karabiner/assets/complex_modifications/capslock.json
 mv $target ${target}.backup #one can delete this artifact later if they desire
-yq -P -oj fork-voong/Capslock/mac/capslock.yml >  $target
+cat ../mac/capslock.yml | yq -P -oj >  $target
+if [ $? -ne 0 ]; then
+  echo Error
+  exit 1
+fi
