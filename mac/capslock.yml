@@ -4286,6 +4286,17 @@ rules:
             modifiers:
               - left_shift
               - left_command
+          - key_code: c
+          - key_code: a
+          - key_code: t
+          - key_code: e
+          - key_code: g
+          - key_code: o
+          - key_code: r
+          - key_code: i
+          - key_code: z
+          - key_code: e
+          - key_code: spacebar
           - key_code: b
           - key_code: i
           - key_code: l
