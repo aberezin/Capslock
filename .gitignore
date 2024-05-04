@@ -77,3 +77,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.gitsecret/keys/random_seed
+!*.secret
+mac/capslock.yml
